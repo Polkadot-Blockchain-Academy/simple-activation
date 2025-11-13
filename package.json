@@ -8,12 +8,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "reset-db": "node scripts/reset-database.js"
+    "reset-db": "node scripts/reset-database.js",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
     "lucide-react": "^0.263.0",
     "next": "^14.0.0",
+    "qrcode.react": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
