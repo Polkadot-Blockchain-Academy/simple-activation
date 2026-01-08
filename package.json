@@ -8,8 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "reset-db": "node scripts/reset-database.js",
-    "preinstall": "node preinstall.js"
+    "reset-db": "node scripts/reset-database.js"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.2",
